@@ -94,7 +94,7 @@ body{
 }
 
 .card-separator{
-  margin: var(--size_6 0);
+  margin: var(--size_6) 0;
 
 }
 
