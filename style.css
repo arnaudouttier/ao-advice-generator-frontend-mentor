@@ -83,9 +83,12 @@ body{
 .card-quote-number{
   font-size : var(--size_3);
   letter-spacing: var(--size_1) ;
-  font-style: italic;
   color: var(--neo_green);
   margin-bottom: var(--size_6);
+}
+
+.card-quote-number span{
+  font-style: italic;
 }
 
 .card-quote{

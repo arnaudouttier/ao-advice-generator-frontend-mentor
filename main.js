@@ -9,7 +9,7 @@ const RandomAdvice = async () => {
 };
 
 const renderQuote = (quote) => {
-  cardQuoteNumber.innerHTML = `ADVICE #${quote.id}`;
+  cardQuoteNumber.innerHTML = `ADVICE <span>#${quote.id}</span>`;
   cardQuote.innerHTML = quote.advice;
 };
 
