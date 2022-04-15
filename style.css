@@ -27,7 +27,7 @@
 --size_10 : 4rem;    /* 64px  */
 
 --card_padding : clamp(40px, calc(2.5rem + ((1vw - 3.75px) * 3.1515)), 45px) clamp(24px, calc(1.5rem + ((1vw - 3.75px) * 3.1515)), 50px);
---card_button_padding : $size_5;
+--card_button_padding : var(--size_5);
 
 }
 
