@@ -17,6 +17,4 @@ cardButton.addEventListener("click", () => {
   RandomAdvice();
 });
 
-setTimeout(() => {
-  RandomAdvice();
-}, 1000);
+RandomAdvice();
